@@ -24,11 +24,9 @@ const Ordo = React.forwardRef((data, ref) => {
         <p>
           Faire pratiquer par IDE,{" "}
           {data.data.domicile === "oui" ? "a domicile" : "au cabinet"},{" "}
-          {data.data.act} pendant{" "}
-          {data.data.nbrMonth === undefined
-            ? (data.data.nbrMonth, "moi et", data.data.nbrDay, " jour")
-            : (data.data.nbrDay, "jour")}{" "}
-          a partir du {data.data.date}
+          {data.data.act} pendant {""}
+          {data.data.nbrMonth === undefined && (data.data.nbrMonth, "mois et")}
+          {data.data.nbrDay} jour a partir du {data.data.date}
         </p>
       </div>
     </div>
