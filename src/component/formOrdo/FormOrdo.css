@@ -1,0 +1,71 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20px;
+}
+
+.entete {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.identity {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.identity :nth-child(1) {
+    align-self: flex-start;
+    margin-bottom: 0px;
+}
+
+.identity :nth-child(2) {
+    align-self: flex-start;
+    margin-bottom: 0px;
+
+}
+
+.identity :nth-child(3) {
+    align-self: flex-start;
+    margin-bottom: 0px;
+
+}
+
+.identity :nth-child(4) {
+    align-self: flex-start;
+    margin-bottom: 0px;
+
+}
+
+.identity :nth-child(5) {
+    align-self: flex-start;
+    margin-bottom: 0px;
+
+}
+
+.identity :nth-child(6) {
+    align-self: flex-end;
+    margin-bottom: 0px;
+
+}
+
+.identity :nth-child(7),
+.identity :nth-child(8),
+.identity :nth-child(9) {
+    align-self: flex-end;
+    margin-bottom: 0px;
+    margin-right: 150px;
+}
+
+.soin {
+    font-size: 20px;
+}
