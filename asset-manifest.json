@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OrdoGenerator/static/css/main.4083e89e.css",
-    "main.js": "/OrdoGenerator/static/js/main.2b85aaa6.js",
+    "main.js": "/OrdoGenerator/static/js/main.67f3d7eb.js",
     "static/js/787.b967291f.chunk.js": "/OrdoGenerator/static/js/787.b967291f.chunk.js",
     "index.html": "/OrdoGenerator/index.html",
     "main.4083e89e.css.map": "/OrdoGenerator/static/css/main.4083e89e.css.map",
-    "main.2b85aaa6.js.map": "/OrdoGenerator/static/js/main.2b85aaa6.js.map",
+    "main.67f3d7eb.js.map": "/OrdoGenerator/static/js/main.67f3d7eb.js.map",
     "787.b967291f.chunk.js.map": "/OrdoGenerator/static/js/787.b967291f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4083e89e.css",
-    "static/js/main.2b85aaa6.js"
+    "static/js/main.67f3d7eb.js"
   ]
 }
