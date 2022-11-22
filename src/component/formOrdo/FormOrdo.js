@@ -739,28 +739,26 @@ const FormOrdo = () => {
     </div>
   ) : (
     <div>
-      <forwardRef>
-        <ReactToPrint
-          trigger={() => <button>Print this out!</button>}
-          content={() => componentRef.current}
-        />
-        <Ordo
-          data={{
-            nom: nom,
-            prenom: prenom,
-            adeli: adeli,
-            rpps: rpps,
-            adresse: adresse,
-            tel: tel,
-            act: act,
-            domicile: domicile,
-            nbrMonth: nbrMonth,
-            nbrDay: nbrDay,
-            date: date,
-          }}
-          ref={componentRef}
-        />
-      </forwardRef>
+      <ReactToPrint
+        trigger={() => <button>Print this out!</button>}
+        content={() => componentRef.current}
+      />
+      <Ordo
+        data={{
+          nom: nom,
+          prenom: prenom,
+          adeli: adeli,
+          rpps: rpps,
+          adresse: adresse,
+          tel: tel,
+          act: act,
+          domicile: domicile,
+          nbrMonth: nbrMonth,
+          nbrDay: nbrDay,
+          date: date,
+        }}
+        ref={componentRef}
+      />
     </div>
   );
 };
